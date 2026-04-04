@@ -1,0 +1,69 @@
+[site]
+title = "Yanchi Su"
+description = "PhD, Jilin University."
+favicon = "/favicon.svg"
+last_updated = "November 29, 2025"
+
+[author]
+name = "Yanchi Su"
+title = "Postdoc"
+institution = "PhD, Jilin University"
+avatar = "/bio.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "suyanchi@gmail.com"
+location = "Chanchun, China"
+location_url = "https://www.google.com/maps/place//@43.8226891,125.2865843,17.15z?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+location_details = [
+  "Zhengxin Building,",
+  "Jilin University, Chanchun, China"
+]
+google_scholar = "https://scholar.google.com.hk/citations?user=BHwkUB4AAAAJ&hl=zh-CN"
+orcid = "https://orcid.org"
+github = "https://github.com/XuYuanchi"
+linkedin = "https://linkedin.com"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+# [[navigation]]
+# title = "Teaching"
+# type = "page"
+# target = "teaching"
+# href = "/teaching"
+
+# [[navigation]]
+# title = "Awards"
+# type = "page"
+# target = "awards"
+# href = "/awards"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

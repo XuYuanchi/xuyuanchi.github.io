@@ -1,0 +1,15 @@
+type = "card"
+title = "Services"
+description = "Professional services and community involvement."
+
+[[items]]
+title = "Reviewer"
+subtitle = "Journals"
+date = "2020-Now"
+content = "Cell Genomics, Advanced Science, Cell Reports Methods, Bioinformatics, Briefings in Bioinformatics, IEEE Transactions on Cybernetics, IEEE Transactions on  Neural Networks and Learning Systems, IEEE Transactions on Knowledge and Data Engineering, IEEE Transactions on Computational Biology and Bioinformatics, IEEE Journal of Biomedical and Health Informatics"
+
+[[items]]
+title = "Reviewer"
+subtitle = "Conferences"
+date = "2020-Now"
+content = "NeurIPS, ICML, CVPR, IJCAI, AAAI, BIBM"
