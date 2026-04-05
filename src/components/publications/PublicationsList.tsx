@@ -28,7 +28,7 @@ export default function PublicationsList({
 }: PublicationsListProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedYear, setSelectedYear] = useState<number | "all">("all");
-  const [selectedType, setSelectedType] = useState<string | "all">("all");
+  // const [selectedType, setSelectedType] = useState<string | "all">("all");
   const [showFilters, setShowFilters] = useState(true);
   const [expandedBibtexId, setExpandedBibtexId] = useState<string | null>(null);
   const [expandedAbstractId, setExpandedAbstractId] = useState<string | null>(
@@ -41,10 +41,10 @@ export default function PublicationsList({
     return uniqueYears.sort((a, b) => b - a);
   }, [publications]);
 
-  const types = useMemo(() => {
-    const uniqueTypes = Array.from(new Set(publications.map((p) => p.type)));
-    return uniqueTypes.sort();
-  }, [publications]);
+  // const types = useMemo(() => {
+  // const uniqueTypes = Array.from(new Set(publications.map((p) => p.type)));
+  // return uniqueTypes.sort();
+  // }, [publications]);
 
   // Filter publications
   const filteredPublications = useMemo(() => {
@@ -58,11 +58,12 @@ export default function PublicationsList({
         pub.conference?.toLowerCase().includes(searchQuery.toLowerCase());
 
       const matchesYear = selectedYear === "all" || pub.year === selectedYear;
-      const matchesType = selectedType === "all" || pub.type === selectedType;
+      // const matchesType = selectedType === "all" || pub.type === selectedType;
 
-      return matchesSearch && matchesYear && matchesType;
+      // return matchesSearch && matchesYear && matchesType;
+      return matchesSearch && matchesYear;
     });
-  }, [publications, searchQuery, selectedYear, selectedType]);
+  }, [publications, searchQuery, selectedYear]);
 
   return (
     <motion.div
