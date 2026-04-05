@@ -160,7 +160,7 @@ export default function PublicationsList({
                   </div>
                 </div>
 
-                {/* Type Filter */}
+                {/* Type Filter
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-neutral-700 dark:text-neutral-300 flex items-center">
                     <BookOpenIcon className="h-4 w-4 mr-1" /> Type
@@ -192,7 +192,7 @@ export default function PublicationsList({
                       </button>
                     ))}
                   </div>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           )}
