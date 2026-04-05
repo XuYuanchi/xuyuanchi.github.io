@@ -4,6 +4,7 @@ import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/ui/ThemeProvider";
 import { getConfig } from "@/lib/config";
+import Script from 'next/script';
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
@@ -96,6 +97,17 @@ export default function RootLayout({
             `,
           }}
         />
+        <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-QGYJ1T7E6H"
+            strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QGYJ1T7E6H');
+         `}
+        </Script>
       </head>
       <body className={`font-sans antialiased`}>
         <ThemeProvider>
