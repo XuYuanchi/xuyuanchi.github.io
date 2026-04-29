@@ -1,4 +1,4 @@
-I am a Research Fellow at the Department of Pharmacy and Pharmaceutical Sciences, National University of Singapore, under the supervision of [Prof. Boxiang Liu] (https://scholar.google.com/citations?user=FWcKOFMAAAAJ&hl=en).
+I am a Research Fellow at the Department of Pharmacy and Pharmaceutical Sciences, National University of Singapore, under the supervision of [Prof. Boxiang Liu](https://scholar.google.com/citations?user=FWcKOFMAAAAJ&hl=en).
 
 Prior to this, I obtained PhD, M.S. and B.Eng from Jilin University, advised by [Prof. Xiangtao Li](https://scholar.google.com/citations?user=Il0-1BUAAAAJ&hl=en) and [Prof. Zhanshan Li](https://scholar.google.com/citations?user=W9vjYJYAAAAJ&hl=en).
 
