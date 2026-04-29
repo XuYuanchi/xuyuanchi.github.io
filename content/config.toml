@@ -6,19 +6,20 @@ favicon = "/favicon.svg"
 
 [author]
 name = "Yanchi Su"
-title = "Postdoc"
-institution = "PhD, Jilin University"
+title = "Research Fellow"
+institution = "National University of Singapore"
 avatar = "/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "suyanchi@gmail.com"
-location = "Chanchun, China"
-location_url = "https://www.google.com/maps/place//@43.8226891,125.2865843,17.15z?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+email = "suyanchi@nus.edu.sg"
+location = "Singapore"
+location_url = "https://maps.app.goo.gl/eFzjvW7LTzvAW89R9"
 location_details = [
-  "Zhengxin Building,",
-  "Jilin University, Chanchun, China"
+  "Tahir Foundation Building (Blk MD1)",
+  "12 Science Drive 2",
+  "Singapore 117549"
 ]
 google_scholar = "https://scholar.google.com.hk/citations?user=BHwkUB4AAAAJ&hl=zh-CN"
 orcid = "https://orcid.org"
