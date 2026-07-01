@@ -1,11 +1,15 @@
-@article{wang2026bridging,
-  title={Bridging sequence-structure motifs and genetic variants for genome-wide dynamic RNA-protein interaction profiling},
-  author={Wang, Yubo and Zhu, Haoran and Hao, Gaoyang and Su, Yanchi and Yu, Zhuohan and Yang, Yuning and Wang, Fuzhou and Chen, Xingjian and Wong, Ka-chun and Li, Xiangtao*},
-  journal={Nature Communications},
-  year={2026},
-  code = {https://github.com/wangyb97/BRIDGE},
-  abstract = {RNA-binding proteins (RBPs) often recognize complex RNA secondary structure motifs, and these interactions can vary between cell lines. However, no current computational model can explain the dynamic behavior of RNA sequence-structure motifs across multiple cell lines and link these dynamics to the functional impact of genetic variation. Here we show BRIDGE, an end-to-end unified model that bridges sequence-structure motifs with the functional effects of noncoding genetic variants, thereby enabling genome-wide analysis of dynamic RNA-protein interaction profiles. Our evaluations demonstrate that BRIDGE outperforms existing state-of-the-art methods in static single cell line predictions. Without any retraining, the framework transfers to unseen cellular contexts, thereby revealing a conserved yet adaptable grammar of RNA recognition. Attention-guided interpretation identified 3,571 integrative motifs, including motifs associated with splicing regulation. Moreover, genome-wide in-silico perturbation provides an interpretable view of RBP-binding disruption across variant classes, including splice-region and pathogenic alleles.},
-  publisher={Nature Publishing Group UK London}
+@article{10.1093/bioinformatics/btag465,
+    author = {Wang, Xiangxiang and Su, Yanchi and Hao, Gaoyang and Wang, Meng and Wang, Yunhe and Li, Xiangtao},
+    title = {ARISE: RNA-Anchored Shared-Edge Topology and Hierarchical Fusion for Spatial Multi-Omics Integration},
+    journal = {Bioinformatics},
+    pages = {btag465},
+    year = {2026},
+    month = {06},
+    abstract = {Spatial multi-omics technologies jointly profile transcriptomes, proteins, and chromatin accessibility in situ, enabling integrative analysis of tissue organization across molecular layers. However, most existing graph-based integration methods rely on independently constructed modality-specific k-nearest-neighbor graphs. When auxiliary modalities are sparse or noisy, these graphs can become topologically discordant, propagate spurious edges, weaken cross-modal alignment, and reduce spatial domain resolution. We present ARISE (Anchored RNA for Integrated Spatial Embedding), an RNA expression-anchored framework for spatial multi-omics integration. ARISE defines a shared-edge topology by intersecting RNA feature-similarity and spatial-proximity graphs, encodes auxiliary modalities on this common scaffold, and integrates them through inside-out hierarchical fusion. We further show theoretically that graph intersection minimizes false-positive edges within a broad class of k-of-r graph fusion rules, providing a principled basis for topology anchoring. Across various spatial multi-omics benchmarks spanning simulated and real datasets in bi-modal and tri-modal settings, ARISE improves spatial domain identification, cross-modal consistency, and preservation of tissue structure relative to existing methods. Furthermore, the learned representation supports biologically meaningful downstream analyses, including marker-based domain annotation, pathway enrichment and cis-regulatory inference, indicating that ARISE yields a robust and interpretable framework for spatial multi-omics integration. The source code is available at https://github.com/XiangxiangWang-code/ARISE. The archived version used in this study is available at https://doi.org/10.6084/m9.figshare.32686137.v2.},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btag465},
+    url = {https://doi.org/10.1093/bioinformatics/btag465},
+    eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btag465/68641233/btag465.pdf},
 }
 
 @article{wang2026interpretable,
